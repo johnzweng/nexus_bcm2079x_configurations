@@ -1,0 +1,12 @@
+NFC Offhost routing to the SIM card seems not possible with Nexus 4 hardware
+as the brcm2079x chip seems not to be connected to the SIM card over single 
+wire protocol.
+
+
+See also here:
+http://stackoverflow.com/questions/21704987/overwriting-offhostapduservice-to-route-apdu-to-sim-card
+
+"Routing to the UICC does not seem possible on the Nexus 4 since the 
+SWP contact is not wired to the NFC chip on this device."
+
+
